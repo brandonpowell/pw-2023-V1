@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+	  padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: auto;
+    -moz-osx-font-smoothing: auto;
+}
+
+.container {
+  width: 100%;
+  max-width: 1249px;
+  margin: 0 auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.clutch-widget {
+    width: 190px;
+}
+
+b {
+    font-weight: bold;
+}
+
+/* .App-header {
+  min-height: 79vh !important;
+} */
+
+#root {
+    background-color: #011126;
+    overflow: hidden;
+  }
+
+  small {
+    font-size: large;
+    letter-spacing: 0.02em;
+    font-variant: small-caps;
+  }
+  
+  .App {
+    text-align: center;
+    background: url(images/image.png);
+    background-size: cover;
+    background-color: #011126;
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+  }
+
+
+  .inline {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+  }
+
+  .nav-list {
+    justify-content: flex-end;
+    padding: 30px 0;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+  }
+
+  .post {
+    background-color: #3E37C8;
+    color: white;
+    position: relative;
+    top: -40px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 1060px;
+    height: 34vh;
+    width: 100%;
+  }
+
+  .alert_bar {
+    background-color: #3E37C8;
+    padding: 0.5em;
+    width: 100%;
+  }
+
+  .alert_bar h1 {
+    line-height: 26px;
+    width: 100%;
+    max-width: 929px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding: 8px 0px;
+    font-variant: small-caps;
+    font-size: smaller;
+    letter-spacing: 1.2px;
+    margin: 0 auto;
+  }
+
+  .alert_bar a {
+    color: white;
+  }
+
+  .nav-item {
+    margin-right: 2rem;
+    font-variant: small-caps;
+    font-size: large;
+    letter-spacing: 1px;
+    list-style: none;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+
+  .nav-item a:hover {
+    text-decoration: line-through;
+    opacity: 30%;
+  }
+  
+  .nav-item:first-child {
+    margin-right: auto;
+  }
+
+  /* .nav-item:last-child {
+    background-color: #FFFFFF;
+    color: #011126;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    border: none;
+    font-size: large;
+    font-variant: small-caps;
+    padding: 15px 30px;
+  } */
+
+  /* .nav-item:last-child  a:hover {
+    text-decoration: none;
+    padding: inherit;
+    color: #011126;
+    background-color: #FFFFFF;
+  } */
+
+  .ant-spin-text {
+    color: white;
+  }
+
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  .App-header {
+    width: 100%;
+    max-width: 697px;
+    align-items: center;
+  }
+  
+  .line {
+    width: 40px;
+    height: 0px;
+    margin: 5px 0;
+    border: 1px solid #FFFFFF;
+  }
+  
+  h1 {
+    width: 100%;
+    letter-spacing: 0.02em;
+    line-height: 39.2px;
+    margin-bottom: 5px;
+    max-width: 614px;
+  }
+  
+  h2 {
+    display: flex;
+    gap: 5px;
+    letter-spacing: 0.02em;
+    font-variant: small-caps;
+    font-style: normal;
+  }
+
+  h3 {
+    font-variant: small-caps;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    font-style: normal;
+  }
+
+  h2::before {
+      margin-top: 10px;
+  }
+  
+  p {
+    font-size: 10.1pt;
+    line-height: 27.2px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    font-style: normal;
+  }
+  
+  span {
+    text-decoration: underline;
+    font-weight: bold;
+  }
+
+  .District-One {
+    width: 120px;
+    height: 75px;
+  }
+
+  .District-One:hover {
+    opacity: 50%;
+  }
+
+  .userEmail {
+    padding: 1em;
+    width: 240px;
+    letter-spacing: 1px;
+    font-variant: small-caps;
+    font-size: 16px;
+    border: none;
+  }
+
+  .userSubmit {
+    border: none;
+    text-align: center;
+    margin-left: 12px;
+    width: 120px;
+    padding: 1em;
+    background-color: #4B43E9;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-variant: small-caps;
+    font-size: initial;
+    color: white;
+  }
+
+  userSubmit:hover {
+    background-color: #3E37C8;
+  }
+  
+
+  .result {
+    color: white;
+  }
+
+  button {
+    padding: 15px 30px;
+    letter-spacing: 1px;
+    background-color: #4B43E9;
+    cursor: pointer;
+    color: white;
+    border: none;
+    font-size: large;
+    font-variant: small-caps;
+  }
+
+  .success {
+    margin-top: 17px;
+  }
+
+  .success p {
+    text-align: left !important;
+    color: white !important;
+  }
+
+  .error {
+    margin-top: 17px;
+  }
+
+  .error p {
+    text-align: left !important;
+    color: white !important;
+  }
+
+  .ChimpError {
+    margin-top: 17px;
+  }
+
+  .ChimpError p {
+    text-align: left !important;
+    color: white !important;
+  }
+
+  button:hover {
+    background-color: #3E37C8;
+  }
+  
+  .App-header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+
+  .MessageBox {
+    background-color: #3E37C8;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 250px;
+    width: 540px;
+    height: 540px;
+    margin: 0 auto;
+    right: 0;
+    z-index: 1;
+    border-radius: 10px;
+  }
+
+  .deactivate {
+    cursor: not-allowed;
+    text-decoration: none;
+    opacity: 30%;
+  }
+
+  a .deactivate {
+    cursor: not-allowed;
+    text-decoration: none;
+    opacity: 50%;
+  }
+
+  .ContainerBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ContainerBox p {
+    padding-right: 25px;
+    padding-left: 25px;
+    line-height: 24px;
+    font-size: 9.1pt;
+    color: white;
+    margin-bottom: 7px;
+    letter-spacing: 1px;
+    font-variant: none;
+  
+  }
+
+  .ContainerBox h1 {
+    color: white;
+  }
+
+  .ContainerBox h2 {
+    display: block;
+    font-size: larger;
+    color: white;
+    letter-spacing: revert;
+    width: 250px;
+    margin-top: 5px !important;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: revert;
+  }
+
+  @media only screen and (max-width: 767px) {
+    .App-header {
+      min-height: 70vh;
+    }
+    .nav-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-item {
+        margin: 1rem 0;
+    }
+    .nav-item:first-child {
+        margin-right: 0;
+    }
+
+    .inline {
+        flex-direction: column;
+    }
+}
+
+
+
+  /* @media screen and (max-width: 900px) and (min-width: 600px), (min-width: 1100px) {
+    .nav-item {
+      margin: 0px;
+    }
+
+    .nav-list {
+      flex-direction: column;
+      padding: 0px;
+      gap: 25px;
+    }
+
+    .inline {
+      flex-direction: column;
+    }
+  } */
